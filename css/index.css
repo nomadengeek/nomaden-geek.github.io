@@ -1,0 +1,35 @@
+#body{
+/* You may now use class .sb-site-container instead of #sb-site and use your own id.   However please make sure you don't set any of the following styles any differently on your id. */
+    width: 100%;
+		height: 480px;
+    position: relative;
+    z-index: 1; /* Site sits above Slidebars */
+		background: #262626;
+	  background-size: 100% 100%;
+		background-repeat: no-repeat;
+    color: white;
+}
+
+#navbarCollapse{
+  background: linear-gradient(to bottom right, #262626, #262626);
+}
+
+.icon-bar {
+   background-color:#fff !important;
+}
+
+/*
+#perkenalan{
+  width: 50px;
+  height: 450px;
+  margin-top: 0px;
+  margin: center-block;
+  z-index: 1;
+  background:white;
+  background-repeat: no-repeat;
+}*/
+
+
+.navbar-collapse li:hover{
+  background-color: black;
+}

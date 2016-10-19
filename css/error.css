@@ -1,0 +1,32 @@
+@font-face {
+				 font-family: "FontDigital";
+				 src: url('fonts/ufonts.com_urw-gothic-l-book.ttf');
+				 }
+body{
+  margin-left: auto; /*untuk rata tengah*/
+      margin-right: auto; /*untuk rata tengah*/
+}
+
+#main-layout {
+  margin: 0px; /*Biar tidak ada sela kecil dipojokan layout*/
+  padding: 0px; /*Biar tidak ada sela kecil dipojokan layout*/
+	margin-left: auto; /*untuk rata tengah*/
+  margin-right: auto; /*untuk rata tengah*/
+	width:1510px;
+	height: 750px;
+	background: white;
+	color:#000000;
+}
+
+#errortextbawah {
+  font-family: FontDigital;
+  width:1510px;
+  height:50px;
+  background-color:transparent;
+  color: #462020;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  text-align: center;
+  font-size: 15pt;
+}
